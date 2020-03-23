@@ -134,18 +134,18 @@
 //  alert(result);
 
 
-var age = prompt("Enter your age");
-var name = prompt("Enter your name");
-var food = prompt("Enter some food");
+// var age = prompt("Enter your age");
+// var name = prompt("Enter your name");
+// var food = prompt("Enter some food");
 
-function output(age, food, name){
+// function output(age, food, name,){
     
-alert("My name is " + name + " I am " + age + "and I love " + food );
-    return age, food, name;
+// alert("My name is " + name + " I am " + age + "and I love " + food );
+//     return age, food, name;
     
 
-}
-output(age, food, name);
+// }
+// output(age, food, name);
 
 
 
@@ -163,7 +163,16 @@ output(age, food, name);
 // threetimes(num1, num2);
 // alert(result);
 
+//(0°C × 9/5) + 32 =
+var celsius = parseInt(prompt("enter temp in celcius"));
+var fahr;
 
+var converter = function (celsius){
+  fahr =(celsius * (9/5)) + 32
+  return fahr;
+}
+
+alert(converter(celsius) + " Fahrenheit ");
 
 
 
